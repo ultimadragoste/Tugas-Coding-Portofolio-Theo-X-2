@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Nicholas Theodore Susanto</title>
+
+  <!--Font dari Google-->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f4f9fc;
+      color: #2c3e50;
+      line-height: 1.6;
+    }
+
+    /* Header */
+    header {
+      background-color: #1f2d3d;
+      color: white;
+      text-align: center;
+      padding: 2.5rem 1rem;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      margin-bottom: 1.5rem;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      margin: 0 0.7rem;
+    }
+
+    nav a:hover {
+      color: #81d4fa;
+    }
+
+    /* Section umum */
+    section {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 1.5rem;
+      background-color: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    section h2 {
+      color: #0288d1;
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+
+    section p {
+      margin-bottom: 1rem;
+    }
+
+    /*Buat foto profil */
+    .foto-profil {
+      width: 180px;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin: 1rem auto;
+      border: 5px solid #0288d1;
+    }
+
+    /* Card */
+    .card {
+      background-color: #eef8fd;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border-left: 5px solid #0288d1;
+      border-radius: 8px;
+    }
+
+    .card h3 {
+      color: #0288d1;
+      margin-bottom: 0.5rem;
+    }
+
+    ul {
+      margin-left: 1.5rem;
+    }
+
+    li {
+      margin-bottom: 0.5rem;
+    }
+
+    /* Buat gambar sertifikat */
+    .sertifikat-gambar {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      border: 1px solid #ddd;
+      background-color: white;
+      margin-bottom: 1rem;
+    }
+
+    /* Tombol */
+    .button-container {
+      text-align: center;
+      margin-top: 1rem;
+    }
+
+    .button {
+      display: inline-block;
+      background-color: #0288d1;
+      color: white;
+      text-decoration: none;
+      padding: 0.8rem 1.5rem;
+      border-radius: 8px;
+      font-weight: bold;
+      margin: 0.5rem;
+    }
+
+    .button:hover {
+      background-color: #0277bd;
+    }
+
+    /* Form */
+    label {
+      display: block;
+      margin-top: 1rem;
+      font-weight: bold;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 0.8rem;
+      margin-top: 0.4rem;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    button {
+      background-color: #0288d1;
+      color: white;
+      border: none;
+      padding: 0.8rem 1.5rem;
+      border-radius: 8px;
+      font-weight: bold;
+      margin-top: 1rem;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #0277bd;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #1f2d3d;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+
+    /* Tampilan HP */
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      nav a {
+        display: block;
+        margin: 0.5rem 0;
+      }
+
+      section {
+        margin: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Nicholas Theodore Susanto</h1>
+    <p>High School Student Portfolio</p>
+
+    <nav>
+      <a href="#tentang">Tentang</a>
+      <a href="#pendidikan">Pendidikan</a>
+      <a href="#skill">Skill</a>
+      <a href="#pengalaman">Pengalaman</a>
+      <a href="#sertifikat">Sertifikat</a>
+      <a href="#kontak">Kontak</a>
+    </nav>
+  </header>
+
+  <section id="tentang">
+    <h2>Tentang Saya</h2>
+
+    <img src="foto 1.jpeg" alt="Foto Profil" class="foto-profil">
+
+    <p>
+      Halo, nama saya <strong>Nicholas Theodore Susanto</strong>. Saya adalah seorang murid dari SMA Wardaya
+      yang tertarik pada teknologi, organisasi, desain, dan pengembangan diri.
+    </p>
+
+    <p>
+      Website ini saya buat sebagai portfolio pribadi untuk menampilkan pengalaman, skill,
+      sertifikat, dan pencapaian yang pernah saya raih.
+    </p>
+  </section>
+
+
+  <section id="pendidikan">
+    <h2>Pendidikan</h2>
+
+    <div class="card">
+      <h3>SMA Wardaya</h3>
+      <p><strong>Status:</strong> Siswa aktif</p>
+      <p>
+        Saat ini saya sedang menempuh pendidikan di SMA Wardaya dan terus mengembangkan kemampuan akademik
+        maupun non-akademik.
+      </p>
+    </div>
+  </section>
+
+
+  <section id="skill">
+    <h2>Skill Saya</h2>
+
+    <ul>
+      <li>HTML dan CSS dasar</li>
+      <li>Problem solving</li>
+      <li>Kerja sama tim</li>
+      <li>Leadership / kepemimpinan</li>
+      <li>Komunikasi dan organisasi</li>
+    </ul>
+  </section>
+
+
+  <section id="pengalaman">
+    <h2>Pengalaman Saya</h2>
+
+    <div class="card">
+      <h3>Sekretaris Leo Club</h3>
+      <p><strong>Tahun:</strong> 2026 - 2028</p>
+      <p>
+        Saya saat ini menjabat sebagai sekretaris Leo Club Jakarta Wardaya Meliora di District 307 A1.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Pengurus Liturgi Misdinar</h3>
+      <p><strong>Tahun:</strong> 2026 - 2029</p>
+      <p>
+        Saat ini saya menjabat sebagai pengurus liturgi misdinar di Gereja Santo Kristoforus.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Magang di Universitas Pertamina</h3>
+      <p><strong>Tahun:</strong> 2025</p>
+      <p>
+        Saya pernah menggunakan waktu liburan untuk mengikuti magang di Universitas Pertamina pada bagian SDM.
+      </p>
+    </div>
+  </section>
+
+
+  <section id="sertifikat">
+    <h2>Sertifikat dan Pencapaian</h2>
+
+    <div class="card">
+      <img src="AMC 10B.jpeg" alt="Sertifikat American Mathematics Contest 10B" class="sertifikat-gambar">
+      <h3>American Mathematics Contest 10B</h3>
+      <p><strong>Penyelenggara:</strong> Wardaya College</p>
+      <p><strong>Tahun:</strong> 2025</p>
+    </div>
+
+    <div class="card">
+      <img src="KSAI 2026.jpeg" alt="Sertifikat Kompetisi Sains Akademik Indonesia 2026" class="sertifikat-gambar">
+      <h3>Kompetisi Sains Akademik Indonesia 2026 (KSAI)</h3>
+      <p><strong>Penyelenggara:</strong> Sentral Olimpiade</p>
+      <p><strong>Tahun:</strong> 2026</p>
+    </div>
+  </section>
+
+
+  <section id="sosial-media">
+    <h2>Sosial Media</h2>
+    <p>
+      Kamu bisa melihat profil sosial media saya melalui tombol di bawah ini.
+    </p>
+
+    <div class="button-container">
+      <a href="https://www.instagram.com/nic.theooo" target="_blank" class="button">Instagram</a>
+      <a href="https://github.com/ultimadragoste" target="_blank" class="button">GitHub</a>
+    </div>
+  </section>
+
+
+  <section id="kontak">
+    <h2>Kontak Saya</h2>
+    <p>Kamu bisa menghubungi saya melalui form di bawah ini.</p>
+
+    <!--Cuman form tampilan doang bukan beneran-->
+    <form>
+      <label for="nama">Nama</label>
+      <input type="text" id="nama" placeholder="Masukkan nama Anda">
+
+      <label for="email">Email</label>
+      <input type="email" id="email" placeholder="Masukkan email Anda">
+
+      <label for="pesan">Pesan</label>
+      <textarea id="pesan" rows="5" placeholder="Tulis pesan Anda di sini"></textarea>
+
+      <button type="submit">Kirim</button>
+    </form>
+  </section>
+
+
+  <footer>
+    <p>© 2026 Portfolio | Dibuat oleh Nicholas Theodore Susanto</p>
+  </footer>
+
+</body>
+</html>
